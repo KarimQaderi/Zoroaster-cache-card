@@ -1,5 +1,7 @@
+
 ## Cache Management
 
+![](https://raw.githubusercontent.com/KarimQaderi/Zoroaster-cache-card/master/1.png)
 
 ## نصب 
 
@@ -7,12 +9,12 @@
 
 ```json
     "require": {
-        "karim-qaderi/zoroaster-column-filter": "*"
+        "karim-qaderi/zoroaster-cache-card": "*"
     },
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/KarimQaderi/Zoroaster-Column-Filter.git"
+            "url": "https://github.com/KarimQaderi/Zoroaster-cache-card.git"
         }
     ],
 ```
