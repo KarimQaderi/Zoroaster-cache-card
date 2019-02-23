@@ -15,7 +15,7 @@
         public function boot()
         {
 
-            $this->loadViewsFrom(__DIR__.'/../resources/view','ZoroasterCacheCard');
+            $this->loadViewsFrom(__DIR__ . '/../resources/view' , 'ZoroasterCacheCard');
 
             $this->app->booted(function(){
                 $this->routes();
@@ -34,7 +34,7 @@
                 return;
             }
 
-            Route::middleware(['can:Zoroaster-cache-card','can:Zoroaster'])
+            Route::middleware(['web' , 'can:Zoroaster-cache-card' , 'can:Zoroaster'])
                 ->prefix('ZoroasterCacheCard')
                 ->group(__DIR__ . '/../routes/web.php');
         }
